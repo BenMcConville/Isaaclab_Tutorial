@@ -41,6 +41,7 @@ def main():
     sim.set_camera_view([2.5, 2.5, 2.5], [0., 0., 0.])
 
     sim.reset()
+    # sim.SimulationContext.reset() Do Not Use
         # Must be called at start of every simulation to reset env params
 
     print("[INFO]: Setup Complete...")
